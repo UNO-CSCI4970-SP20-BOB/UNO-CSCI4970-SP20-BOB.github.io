@@ -2,9 +2,57 @@
 <html>
     <head>
         <title>Back Office Boiz</title>
+
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                font-size: 100%;
+                font-family: Arial, Helvetica, sans-serif;
+                background: #131b23;
+                color: #e9f1f7;
+            }
+
+            a {
+                color: #1caefd;
+                font-weight: 600;
+            }
+
+            a:visited {
+                color: #a3d8f5;
+            }
+
+            main {
+                width: 100%;
+                max-width: 35em;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            #logo {
+                width: 80%;
+            }
+
+            #linkHolder {
+                display: flex;
+            }
+
+            #linkHolder > * {
+                padding: 1em;
+                flex: 1;
+            }
+        </style>
     </head>
     <body>
-        <h1>Back Office Boiz</h1>
-        <p>Hello World!</p>
+        <main>
+            <img src="images/logo.png" id="logo" title="Back Office Boiz Logo" alt="Square grey background image with two white capital letter Bs with a blue capital letter O interescting the Bs. "/>
+            <h1>Back Office Boiz</h1>
+            <p>We're a group of University of Nebraska at Omaha (UNO) students currently completing our senior capstone project.</p>
+            <div id="linkHolder">
+                <div>
+                    <a href="https://github.com/UNO-CSCI4970-SP20-BOB">GitHub</a>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
