@@ -1,4 +1,3 @@
-# UNO-CSCI4970-SP20-BOB.github.io
-Back Office Boiz Webpage
+# Back Office Apps Webpage
 
-Webpage for Back Office Boiz
+Website for https://backofficeapps.dev/
